@@ -31,6 +31,9 @@ class Node:
         self.maze_node = maze_node
 
 
+def sectret_code(name):
+    print(name)
+
 # The maze implementation
 class Cell(str, Enum):
     EMPTY = " "
